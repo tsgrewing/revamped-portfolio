@@ -37,7 +37,7 @@ export default function Skills() {
                 </span>
                 <span className="flex ml-auto">
                 {skillLevel(skill.level).map((star) => (
-                  <FireIcon className={"text-red-500 w-6 h-6 flex-shrink-0 " }/>
+                  <FireIcon className={`text-red-${star} w-6 h-6 flex-shrink-0` }/>
                 )
           )}
                 </span>
