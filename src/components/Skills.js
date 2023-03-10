@@ -1,4 +1,4 @@
-import { TerminalIcon, StarIcon } from "@heroicons/react/solid";
+import { TerminalIcon, FireIcon } from "@heroicons/react/solid";
 import React from "react";
 import { tech } from "../data";
 
@@ -36,7 +36,7 @@ export default function Skills() {
                 </span>
                 <span className="flex ml-auto">
                 {skillLevel(skill.level).map((star) => (
-                  <StarIcon className={"text-green-" + star +" w-6 h-6 flex-shrink-0 " }/>
+                  <FireIcon className={"text-red-" + star +" w-6 h-6 flex-shrink-0 " }/>
                 )
           )}
                 </span>
