@@ -8,11 +8,11 @@ export default function Skills() {
     let html = []
 
     for (let i=0; i<num; i++){
-      let color = i+3;
-      
-      html.push(color*100)
+      let color = (i+3)*100;
+      let snip = <FireIcon className={`text-red-${color} w-6 h-6 flex-shrink-0` }/>
+
+      html.push(snip)
     }
-    console.log(html)
     return html;
   }
 
@@ -36,10 +36,7 @@ export default function Skills() {
                   {skill.name}
                 </span>
                 <span className="flex ml-auto">
-                {skillLevel(skill.level).map((star) => (
-                  <FireIcon className={`text-red-${star} w-6 h-6 flex-shrink-0` }/>
-                )
-          )}
+                {skillLevel(skill.level)}
                 </span>
               </div>
             </div>
