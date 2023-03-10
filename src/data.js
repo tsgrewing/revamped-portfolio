@@ -4,7 +4,7 @@ export const projects = [
     title: "Boom Roasted",
     subtitle: "MERN Stack",
     image: "./images/roaststill.png",
-    description: "Track Roasts and Manage Green Coffee Inventory",
+    description: "Track roasts in real time, take quality control notes, and manage green coffee inventory",
     repo: "https://github.com/tsgrewing/boom-roasted",
     deployed: "https://boom-roasted.herokuapp.com/"
   },
@@ -22,7 +22,7 @@ export const projects = [
     title: "Super Hero Search",
     subtitle: "Bulma, Chart.js, APIs",
     image: "./images/superstill.png",
-    description: "Find your favorite hero",
+    description: "Display gifs and information for your favorite superhero or fictional character",
     repo: "https://github.com/tsgrewing/Superhero-Search",
     deployed:"https://tsgrewing.github.io/Superhero-Search"
   },
@@ -31,7 +31,7 @@ export const projects = [
     title: "D & D Dashboard",
     subtitle: "Express, Handlebars, bcrypt, MySQL, passport, DND 5e API",
     image: "./images/dmstill.png",
-    description: "Manage a D&D Campaign",
+    description: "Look up items, monsters, and spells for a Dungeons and Dragons game",
     repo: "https://github.com/tsgrewing/project-2",
     deployed:"https://blooming-ridge-74846.herokuapp.com/"
   },
@@ -49,7 +49,7 @@ export const projects = [
     title: "Code Quiz",
     subtitle: "JavaScript",
     image: "./images/quizstill.png",
-    description: "A simple JavaScript Quiz",
+    description: "test your knowledge with a simple JavaScript quiz",
     repo: "https://github.com/tsgrewing/JS_Code_Quiz",
     deployed:"https://tsgrewing.github.io/Code-Quiz"
   },
@@ -58,9 +58,17 @@ export const projects = [
     title: "Budget Tracker",
     subtitle: "Online/Offline Functionality",
     image: "./images/budgetstill.png",
-    description: "Online/Offline Budget Tracker",
+    description: "Keep track of your budget even when you aren't connected to the internet",
     repo: "https://github.com/tsgrewing/Budget-Tracker",
     deployed:"https://evening-beach-46735.herokuapp.com/"
+  },
+  {
+    id: 8,
+    title: "ReadMe Generator",
+    subtitle: "Node.js CLI App",
+    image: "./images/readmestill.png",
+    description: "A command line application to generate a readme for your repo",
+    repo: "https://github.com/tsgrewing/ReadMe-Generator"
   }
 ]
 
