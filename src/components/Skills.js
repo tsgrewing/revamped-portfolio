@@ -12,6 +12,7 @@ export default function Skills() {
       
       html.push(color*100)
     }
+    console.log(html)
     return html;
   }
 
