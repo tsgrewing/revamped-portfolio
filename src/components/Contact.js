@@ -56,8 +56,10 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
+              {/* <p className="mt-1">
+                Lazenby Dr.
+                </p> */}
               <p className="mt-1">
-                
                 Nashville, TN 
               </p>
             </div>
@@ -65,7 +67,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-green-400 leading-relaxed">
+              <a className="text-green-400 pr-12 leading-relaxed">
                 tsgrewing@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
