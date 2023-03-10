@@ -21,8 +21,13 @@ export default function About() {
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-white bg-blue-400 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Projects
+            </a>
+            <a
+              href="#skills"
+              className="ml-4 inline-flex text-white bg-red-400 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              Skills
             </a>
           </div>
         </div>
