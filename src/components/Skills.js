@@ -13,7 +13,6 @@ export default function Skills() {
 
       html.push(snip)
     }
-    console.log(html)
     return html;
   }
 
