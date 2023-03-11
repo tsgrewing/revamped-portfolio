@@ -13,7 +13,7 @@ export const projects = [
     title: "Premier Picks",
     subtitle: "React & Tailwind",
     image: "./images/premstill.png",
-    description: "Track Premier League redictions and give users points and rankings based on correct picks",
+    description: "Track Premier League predictions and give users points and rankings based on correct picks",
     repo: "https://github.com/tsgrewing/prem-picks",
     deployed: "https://prem-picks.web.app/"
   },
