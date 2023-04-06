@@ -1,4 +1,5 @@
 import { PencilIcon } from "@heroicons/react/solid";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import React from "react";
 
 export default function Navbar() {
@@ -26,6 +27,18 @@ export default function Navbar() {
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Get in Touch
           <PencilIcon className="w-4 h-4 ml-1" />
+        </a>
+        <a
+          href="https://github.com/tsgrewing"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          <FaGithub />
+          {/* <FontAwesomeIcon icon={faGitHub} className="w-4 h-4 ml-1" /> */}
+        </a>
+        <a
+          href="https://linkedin.com/in/tsgrewing"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          <FaLinkedin />
+          {/* <FontAwesomeIcon icon={faLinkedIn} className="w-4 h-4 ml-1"/> */}
         </a>
       </div>
     </header>
